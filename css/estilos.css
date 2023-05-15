@@ -1,3 +1,14 @@
+/*Fuente principal del proyecto*/
+/*Color principal*/
+/*Color principal (alternativo)*/
+/*Color secundario*/
+/*Colores oscuros permitidos con la marca*/
+/*Fuente principal del proyecto*/
+/*Color principal*/
+/*Color principal (alternativo)*/
+/*Color secundario*/
+/*Colores oscuros permitidos con la marca*/
+/*Mixing para agregar los colores del menu de fondo y texto*/
 * {
   margin: 0;
   padding: 0;
@@ -32,15 +43,7 @@ h1 {
 }
 
 .color-negro {
-  color: #000;
-}
-
-.header-nav a {
-  color: #f6f1e8;
-}
-.header-nav a:hover {
-  color: #f6f1e8;
-  text-decoration: underline;
+  color: #444;
 }
 
 /* FOOTER */
@@ -64,13 +67,16 @@ h1 {
   background-color: rgba(68, 68, 68, 0.2);
   color: #f6f1e8;
 }
+.nougat-carousel-caption h1 {
+  color: #f6f1e8;
+}
 
-.btn-primary {
+.btn-nougat-primary {
   background-color: #00ccb1;
   border: 1px solid #00ccb1;
   color: white;
 }
-.btn-primary:hover, .btn-primary:active, .btn-primary:visited, .btn-primary:focus, .btn-primary:active:focus {
+.btn-nougat-primary:hover, .btn-nougat-primary:active, .btn-nougat-primary:visited, .btn-nougat-primary:focus, .btn-nougat-primary:active:focus {
   background-color: #00ccb1;
   border: 1px solid #00ccb1;
   color: white;
@@ -109,6 +115,10 @@ h1 {
   color: #00ccb1;
   background-color: #f6f1e8;
   box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}
+
+.alert-nougat-tip {
+  background-color: white;
 }
 
 /*# sourceMappingURL=estilos.css.map */

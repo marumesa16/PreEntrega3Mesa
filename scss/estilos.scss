@@ -1,15 +1,6 @@
-$font-stack: 'Arima', cursive;
+@import 'variables';
+@import 'mixins';
 
-$nougat-color-principal-1:rgb(241, 173, 186);
-$nougat-color-principal-2: #00ccb1;
-$nougat-color-secundario: #f6f1e8;
-$nougat-color-gris: darkgray;
-$nougat-color-negro: #444;
-
-@mixin menu($color: white, $background: $nougat-color-principal-1) {
-    background: $background;
-    color: $color;
-}
 
 * {
     margin: 0;
@@ -44,19 +35,7 @@ h1 {
 }
 
 .color-negro {
-    color: #000;
-}
-
-.header-nav {
-
-   a {
-        color: $nougat-color-secundario;
-
-        &:hover {
-            color: $nougat-color-secundario;
-            text-decoration: underline;
-        }
-    }
+    color: $nougat-color-negro;
 }
  
 /* FOOTER */
@@ -80,9 +59,13 @@ h1 {
 .nougat-carousel-caption {
     background-color: rgba($color: #444, $alpha: 0.2);
     color: $nougat-color-secundario;
+
+    & h1 {
+        color: $nougat-color-secundario;
+    }
 }
 
-.btn-primary {
+.btn-nougat-primary {
     background-color: $nougat-color-principal-2;
     border: 1px solid $nougat-color-principal-2;
     color: white;
@@ -128,4 +111,8 @@ h1 {
     color: $nougat-color-principal-2;
     background-color: $nougat-color-secundario;
     box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}
+
+.alert-nougat-tip {
+    background-color: white;
 }
