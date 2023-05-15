@@ -18,6 +18,9 @@ $nougat-color-negro: #444;
     vertical-align: top;
 }
 
+h1 {
+    color: $nougat-color-negro;
+}
 
 .list-reset {
     list-style: none;
@@ -108,4 +111,21 @@ $nougat-color-negro: #444;
     background-color: white;
     color: $nougat-color-principal-2;
     border: none;
+}
+
+
+.accordion-button {
+    color: $nougat-color-principal-1;
+    background-color: white;
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+
+    &:active, &:focus {
+        box-shadow: none;
+    }
+}
+
+.accordion-button:not(.collapsed) {
+    color: $nougat-color-principal-2;
+    background-color: $nougat-color-secundario;
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
 }
