@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Arima", cursive;
+  vertical-align: top;
+}
+
+.list-reset {
+  list-style: none;
+  padding-left: 0;
+}
+
+.menu {
+  background: rgb(241, 173, 186);
+  color: #fff;
+}
+
+.color-rosa {
+  color: rgb(241, 173, 186);
+}
+
+.color-manteca {
+  color: #f6f1e8;
+}
+
+.color-gris {
+  color: darkgray;
+}
+
+.color-negro {
+  color: #000;
+}
+
+.header-nav a {
+  color: #f6f1e8;
+}
+.header-nav a:hover {
+  color: #f6f1e8;
+  text-decoration: underline;
+}
+
+/* FOOTER */
+.footer-container {
+  background: #f6f1e8;
+  color: darkgray;
+  width: 100%;
+  height: 100%;
+}
+
+/* CAROUSEL */
+.carousel-principal {
+  min-height: 400px;
+}
+
+.carousel-item {
+  height: 400px;
+}
+
+.nougat-carousel-caption {
+  background-color: rgba(68, 68, 68, 0.2);
+  color: #f6f1e8;
+}
+
+.btn-primary {
+  background-color: #00ccb1;
+  border: 1px solid #00ccb1;
+  color: white;
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary:visited, .btn-primary:focus, .btn-primary:active:focus {
+  background-color: #00ccb1;
+  border: 1px solid #00ccb1;
+  color: white;
+  text-decoration: underline;
+}
+
+.zoom {
+  transition: transform 0.2s;
+  margin: 0 auto;
+}
+.zoom:hover {
+  transform: scale(1.5);
+}
+
+.card {
+  border: none;
+}
+
+.catalogo-card-header {
+  padding-left: 0;
+  background-color: white;
+  color: #00ccb1;
+  border: none;
+}
+
+/*# sourceMappingURL=estilos.css.map */
