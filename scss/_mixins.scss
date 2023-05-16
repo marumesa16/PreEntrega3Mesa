@@ -1,7 +1,7 @@
 @import '_variables';
 
 /*Mixing para agregar los colores del menu de fondo y texto*/
-@mixin menu($color: white, $background: $nougat-color-principal-1) {
+@mixin menu($color: $nougat-color-blanco, $background: $nougat-color-principal-1) {
     background: $background;
     color: $color;
 }

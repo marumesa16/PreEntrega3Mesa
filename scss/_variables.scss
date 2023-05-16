@@ -1,16 +1,22 @@
 
+@use "sass:map";
+
+/* Use el map con los colores porque no sabia donde mas ponerlo*/
+$colors: ("principal":rgb(241, 173, 186), "principal-alt":#00ccb1, "secundario":#f6f1e8, "gris":darkgray, "negro":#444, "blanco":#fff);
+
 /*Fuente principal del proyecto*/
 $font-stack: 'Arima', cursive;
 
 /*Color principal*/
-$nougat-color-principal-1:rgb(241, 173, 186);
+$nougat-color-principal-1: map.get($colors,"principal");
 
 /*Color principal (alternativo)*/
-$nougat-color-principal-2: #00ccb1;
+$nougat-color-principal-2: map.get($colors,"principal-alt");
 
 /*Color secundario*/
-$nougat-color-secundario: #f6f1e8;
+$nougat-color-secundario: map.get($colors,"secundario");
 
 /*Colores oscuros permitidos con la marca*/
-$nougat-color-gris: darkgray;
-$nougat-color-negro: #444;
+$nougat-color-gris: map.get($colors,"gris");
+$nougat-color-negro: map.get($colors,"negro");
+$nougat-color-blanco: map.get($colors,"blanco");

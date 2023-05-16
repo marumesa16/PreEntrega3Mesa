@@ -1,8 +1,10 @@
+/* Use el map con los colores porque no sabia donde mas ponerlo*/
 /*Fuente principal del proyecto*/
 /*Color principal*/
 /*Color principal (alternativo)*/
 /*Color secundario*/
 /*Colores oscuros permitidos con la marca*/
+/* Use el map con los colores porque no sabia donde mas ponerlo*/
 /*Fuente principal del proyecto*/
 /*Color principal*/
 /*Color principal (alternativo)*/
@@ -74,12 +76,12 @@ h1 {
 .btn-nougat-primary {
   background-color: #00ccb1;
   border: 1px solid #00ccb1;
-  color: white;
+  color: #fff;
 }
 .btn-nougat-primary:hover, .btn-nougat-primary:active, .btn-nougat-primary:visited, .btn-nougat-primary:focus, .btn-nougat-primary:active:focus {
   background-color: #00ccb1;
   border: 1px solid #00ccb1;
-  color: white;
+  color: #fff;
   text-decoration: underline;
 }
 
@@ -97,14 +99,14 @@ h1 {
 
 .catalogo-card-header {
   padding-left: 0;
-  background-color: white;
+  background-color: #fff;
   color: #00ccb1;
   border: none;
 }
 
 .accordion-button {
   color: rgb(241, 173, 186);
-  background-color: white;
+  background-color: #fff;
   box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
 }
 .accordion-button:active, .accordion-button:focus {
@@ -118,7 +120,7 @@ h1 {
 }
 
 .alert-nougat-tip {
-  background-color: white;
+  background-color: #fff;
 }
 
 /*# sourceMappingURL=estilos.css.map */
