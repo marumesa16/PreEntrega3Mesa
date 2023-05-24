@@ -19,7 +19,21 @@ h1 {
 }
 
 .menu {
-    @include menu($nougat-color-blanco, $nougat-color-principal-1);
+    @include menu($nougat-color-secundario, $nougat-color-principal-1);
+
+    a {
+        @include menu($nougat-color-secundario, $nougat-color-principal-1);
+    }
+
+    a:hover {
+        @include menu($nougat-color-secundario, $nougat-color-principal-1);
+        text-decoration: underline;
+    }
+
+    a.nav-link.active {
+        font-style: bold;
+        color:$nougat-color-secundario;
+    }
 }
 
 .color-rosa {
@@ -65,6 +79,16 @@ h1 {
     }
 }
 
+// En small devices rompe el contraste entre el texto y el fondo. Por eso aplico menos transparencia
+@media (max-width: 767.98px) { 
+    .nougat-carousel-caption {
+        background-color: rgba($color: $nougat-color-negro, $alpha: .7);
+    }
+ }
+
+
+ /*Boton principal*/
+
 .btn-nougat-primary {
     background-color: $nougat-color-principal-2;
     border: 1px solid $nougat-color-principal-2;
@@ -78,7 +102,7 @@ h1 {
     }
 }
 
-
+// Efecto de zoom aplicado en la galeria
 .zoom {
     transition: transform .2s;
     margin: 0 auto;
@@ -96,7 +120,7 @@ h1 {
     border: none;
 }
 
-
+// Accordion es utilizado en las recetas
 .accordion-button {
     color: $nougat-color-principal-1;
     background-color: $nougat-color-blanco;

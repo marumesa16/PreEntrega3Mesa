@@ -29,7 +29,20 @@ h1 {
 
 .menu {
   background: rgb(241, 173, 186);
-  color: #fff;
+  color: #f6f1e8;
+}
+.menu a {
+  background: rgb(241, 173, 186);
+  color: #f6f1e8;
+}
+.menu a:hover {
+  background: rgb(241, 173, 186);
+  color: #f6f1e8;
+  text-decoration: underline;
+}
+.menu a.nav-link.active {
+  font-style: bold;
+  color: #f6f1e8;
 }
 
 .color-rosa {
@@ -73,6 +86,12 @@ h1 {
   color: #f6f1e8;
 }
 
+@media (max-width: 767.98px) {
+  .nougat-carousel-caption {
+    background-color: rgba(68, 68, 68, 0.7);
+  }
+}
+/*Boton principal*/
 .btn-nougat-primary {
   background-color: #00ccb1;
   border: 1px solid #00ccb1;
